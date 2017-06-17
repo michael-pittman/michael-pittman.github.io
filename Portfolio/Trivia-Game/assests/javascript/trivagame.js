@@ -36,6 +36,7 @@ var game = {
     correct: 0,
     incorrect: 0,
     counter: 10,
+	unanswered: 0,
     countdown: function(){
         game.counter--;
         $("#counter").html(game.counter);
@@ -47,11 +48,16 @@ var game = {
 		console.log("Time's up, hommie");
         for (var i = 0; i < questions.length; i++) {
           var userAnswer = $("input[name='question- "+i+"']:checked").val();
+		  console.log(userAnswer);
           if (userAnswer === questions[i].correctAnswer) {
             game.correct++;
-          } else {
+          } else if(!userAnswer) {
+			  game.unanswered++;
+		  }
+			else {
             game.incorrect++;
           }
+			
         }
 			// $.each($("input[name='question-0']:checked"), function() {
 			//   if($(this).val()==questions[0].correctAnswer) {
@@ -90,7 +96,7 @@ var game = {
         $("#extra").html("All Done.");
         $("#extra").append("<h3>Right Answers: " +this.correct+ "</h3>");
         $("#extra").append("<h3>Wrong Answers: " +this.incorrect+ "</h3>");
-        $("#extra").append("<h3>Unanswered Answers: " +(questions.length-(game.incorrect+game.correct))+ "</h3>");// not working
+        $("#extra").append("<h3>Unanswered Answers: " +this.unanswered+ "</h3>");// not working
 		console.log("What's the Score?");
       }
 

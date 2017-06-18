@@ -14,20 +14,20 @@ $("button").click(function(){
 });//click event *confimmed
 
 var questions = [{
-  quesiton:"test One?",
-  answers:["a","b","c","d"],
+  quesiton:"How many seeds does one stawberry have?",
+  answers:["200 ","201 ","202 ","101 Dailmations "],
   correctAnswer:"a"
 },{
-  quesiton:"test Two?",
-  answers:["a","b","c","d"],
+  quesiton:"What color is a Hippo's sweat?",
+  answers:["Chartroose ","Red ","Blood Red ","Clear "],
   correctAnswer:"b"
 },{
-  quesiton:"test Three?",
-  answers:["a","b","c","d"],
+  quesiton:"Which are you most likely to die from?",
+  answers:["Sharks ","Tornados ","Toilet ","SharkNados "],
   correctAnswer:"c"
 },{
-  quesiton:"test Four?",
-  answers:["a","b","c","d"],
+  quesiton:"What trees stay green all year round?",
+  answers:["Conofurs ","Seagreen ","Forevergreen ","Evergreen "],
   correctAnswer:"d"
 }];
 
@@ -35,7 +35,7 @@ var questions = [{
 var game = {
     correct: 0,
     incorrect: 0,
-    counter: 10,
+    counter: 120,
 	unanswered: 0,
     countdown: function(){
         game.counter--;

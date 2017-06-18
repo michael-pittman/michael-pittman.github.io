@@ -1,1 +1,14 @@
 @charset "UTF-8";
+body {
+	background-image: url(../../../../assests/images/backgroundmade.gif);
+}
+.jumbotron {
+	background-color: 255, 255, 255, 0.81;
+}
+.container {
+	background-color: #738AE6;
+	background-image: -webkit-linear-gradient(270deg,rgba(115,138,230,0.34) 0%,rgba(115,138,230,0.39) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(115,138,230,0.34) 0%,rgba(115,138,230,0.39) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(115,138,230,0.34) 0%,rgba(115,138,230,0.39) 100%);
+	background-image: linear-gradient(180deg,rgba(115,138,230,0.34) 0%,rgba(115,138,230,0.39) 100%);
+}

@@ -1,10 +1,10 @@
 // JavaScript Document
 
-$("button").click(function(){
+$(".jumbotron").click(function(){
   console.log("start clicked");
   timer = setInterval(game.countdown, 1000);
   $("#info").prepend('<h2>Time Remaining: <span id="counter"></span></h2>')
-  $("button").remove();
+  $(".jumbotron").remove();
   for(var i=0; i<questions.length; i++){
     $("#trivia").append("<h2>" + questions[i].quesiton  + "</h2>");
     for (var j=0; j<questions[i].answers.length; j++) {

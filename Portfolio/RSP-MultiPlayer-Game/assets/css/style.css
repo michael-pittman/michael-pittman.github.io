@@ -1,0 +1,190 @@
+
+
+body {
+  background: #f4f5e7;
+  font-family: Open Sans Condensed;
+  line-height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: #206ba4;
+}
+
+table[class^="row"] {
+  width: 100%;
+}
+
+td {
+  
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row-1 {
+  background: #f4f5e7;
+}
+
+.row-4 {
+  margin-top: 2vw;
+}
+
+.col-left,
+.col-right {
+  width: auto;
+}
+
+.row-2.col-mid {
+  width: 20%;
+}
+
+.row-3.col-mid {
+  width: 8%;
+}
+
+#heading {
+  /*color: #206ba4;*/
+  color: black;
+  font-size: 5vw;
+  padding: 4vw 0 3vw;
+}
+
+#heading:hover {
+  cursor: default;
+}
+
+input {
+  font-size: 1.5vw;
+  display: block;
+  margin: 1vw auto;
+}
+
+#start-btn {
+  font-family: 'Baloo Bhaina';
+  font-size: 2vw;
+  line-height: 3vw;
+  background: #206ba4;
+  color: #ebf4fa;
+  padding: 0.4vw 1.5vw 0;
+  border: none;
+  border-radius: 1vw;
+  outline: none;
+}
+
+#start-btn:hover {
+  color: black;
+  background: #ffab35;
+  cursor: pointer;
+}
+
+img[id^="icon"] {
+  width: 15vw;
+  height: auto;
+}
+
+#icon-male,
+#icon-female {
+  position: relative;
+}
+
+#icon-male {
+  left: 17vw;
+}
+
+#icon-female {
+  right: 17vw;
+}
+
+#icon-male:hover,
+#icon-female:hover {
+  background: #206ba4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#icon-male:target,
+#icon-female:target {
+  background: #ffab35;
+  border-radius: 50%;
+}
+
+.player-div {
+  display: inline-block;
+  margin: 1vw 0 0 0;
+}
+
+.player-icon {
+  width: 5vw;
+  display: block;
+  float: left;
+
+}
+
+.player-name {
+  font-size: 2vw;
+  line-height: 2vw;
+  margin: 1.7vw 0 0 1vw;
+  float: left;
+}
+
+li {
+  font-size: 4vw;
+  line-height: 3vw;
+  margin: 2vw auto;
+}
+
+li:hover {
+  color: #ffab35;
+  cursor: pointer;
+}
+
+#game-progress {
+  font-size: 5vw;
+  line-height: 6vw;
+  /*margin: 1vw auto;*/
+}
+
+.score-div {
+  width: 10vw;
+  position: relative;
+  margin: 0.5vw auto;
+}
+
+.player-wins,
+.player-losses {
+  font-size: 1vw;
+  line-height: 1vw;
+  display: table-cell;
+  width: 5vw;
+}
+
+#vs {
+  font-size: 3vw;
+}
+
+#icon-msg {
+  font-size: 3vw;
+  line-height: 8vw;
+}
+
+.p1-move,
+.p2-move {
+  width: 20vw;
+  height: auto;
+}
+
+.p2-move {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.nameInMsg {
+  color: green;
+}

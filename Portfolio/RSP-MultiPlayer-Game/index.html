@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <title>RPS</title>
+</head>
+<body>
+
+  <table class="row-1">
+    <tr>
+      <td id="heading">Ro-Sham-Bo</td>
+    </tr>
+  </table>
+
+  <table class="row-2">
+    <tr>
+      <td class="row-2 col-left">
+        <div class="player-div">
+          <img class="player-icon">
+          <p class="player-name"></p>
+        </div>
+        <div class="score-div">
+          <p class="player-wins"></p>
+          <p class="player-losses"></p>
+        </div>
+      </td>
+      <td class="row-2 col-mid">
+        <p id="icon-msg">Select an icon.</p>
+      </td>
+      <td class="row-2 col-right">
+        <div class="player-div">
+          <img class="player-icon">
+          <p class="player-name"></p>
+        </div>
+        <div class="score-div">
+          <p class="player-wins"></p>
+          <p class="player-losses"></p>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <table class="row-3">
+    <tr>
+      <td class="row-3 col-left"><a href="#icon-male"><img id="icon-male" src="assets/images/male.png" value="male"></a></td>
+      <td id="vs" class="row-3 col-mid"></td>
+      <td class="row-3 col-right"><a href="#icon-female"><img id="icon-female" src="assets/images/female.png" value="female"></a></td>
+    </tr>
+  </table>
+
+  <table class="row-4">
+    <tr>
+      <td id="game-progress">
+        <form>
+          <input id="player-name" type="text" placeholder="Name" maxlength="30">
+          <input id="start-btn" type="submit" value="START">
+      </td>
+    </tr>
+  </table>
+  <!-- Chat Box -->
+  <table class="row-5">
+    <tr>
+      <td id="chat-box"></td>
+    </tr>
+  </table>
+
+
+
+
+
+
+</body>
+</html>

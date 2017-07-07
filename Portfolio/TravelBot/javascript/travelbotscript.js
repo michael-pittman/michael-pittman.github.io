@@ -142,8 +142,7 @@ $("#add-entry").on("click", function(event) {
     var service = new google.maps.places.PlacesService(map);
     service.nearbySearch({
       location: pyrmont,
-//      radius: 1000,
-	  rankby=distance,
+	  radius: 1000,
       type: ['restaurant']
     }, callback);
   }

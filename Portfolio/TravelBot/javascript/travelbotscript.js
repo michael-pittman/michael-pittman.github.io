@@ -173,12 +173,12 @@ $("#add-entry").on("click", function(event) {
 $(function() {
 
 	var config = {
-	    apiKey: "AIzaSyCnLZn5MPceKQyiETJAcaQ3QgYWKESp3Uk",
-	    authDomain: "travelbot-chatroom.firebaseapp.com",
-	    databaseURL: "https://travelbot-chatroom.firebaseio.com",
-	    projectId: "travelbot-chatroom",
-	    storageBucket: "travelbot-chatroom.appspot.com",
-	    messagingSenderId: "13555853017"
+	    apiKey: "AIzaSyCP7gyAk2MT2rY5JFD2i9b0WDHXbGUn7mQ",
+    authDomain: "project1-1499294091466.firebaseapp.com",
+    databaseURL: "https://project1-1499294091466.firebaseio.com",
+    projectId: "project1-1499294091466",
+    storageBucket: "project1-1499294091466.appspot.com",
+    messagingSenderId: "258284106684"
 	  };
 
 	firebase.initializeApp(config);

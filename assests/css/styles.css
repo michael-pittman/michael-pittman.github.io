@@ -8,12 +8,16 @@ body {
 	padding-top: 30px;
 	text-align: justify;
 }
+.navbar.navbar-default .container .navbar-header {
+	border-bottom-width: thin;
+	border-bottom-color: #17C1C1;
+}
 .col-md-4 {
 	
 	text-align: center;
 }
 .footer.navbar-fixed-bottom {
-	background-color: #777B7F;
+	background-color: #cccccceb;
 	border-top: thin solid #17C1C1;
 	text-align: center;
 }

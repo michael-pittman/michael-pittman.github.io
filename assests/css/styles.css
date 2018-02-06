@@ -4,7 +4,7 @@ body {
 }
 .col-md-8 {
 	background-color: #00000013;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 	padding-top: 30px;
 	text-align: justify;
 }
@@ -12,6 +12,9 @@ body {
 .col-md-4 {
 	
 	text-align: center;
+}
+.img-responsive {
+	border: thin outset #738AE6;
 }
 .footer.navbar-fixed-bottom {
 	background-color: #cccccceb;

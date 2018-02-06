@@ -8,10 +8,7 @@ body {
 	padding-top: 30px;
 	text-align: justify;
 }
-.navbar.navbar-default .container .navbar-header {
-	border-bottom-width: thin;
-	border-bottom-color: #17C1C1;
-}
+
 .col-md-4 {
 	
 	text-align: center;
@@ -24,4 +21,7 @@ body {
 
 .footer.navbar-fixed-bottom a {
 	padding-right: 30px;
+}
+.navbar.navbar-default {
+	border-bottom: thin solid #17C1C1;
 }
